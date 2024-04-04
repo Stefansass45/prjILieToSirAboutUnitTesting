@@ -9,17 +9,17 @@ namespace TestIWantANewProgLecturer
         public void TestName()
         {
             doWhatever doWhat = new doWhatever();
-            String Actual = doWhat.getName();   
+            String actual = doWhat.getName();   
             String expected = "Jeff";
-            Assert.AreEqual(expected, Actual);
+            Assert.AreEqual(expected, actual);
         }
         [TestMethod]
         public void TestEmail()
         {
             doWhatever doWhat = new doWhatever();
-            String Actual = doWhat.getEmail();
+            String actual = doWhat.getEmail();
             String expected = "Jess@gmail.com";
-            Assert.AreEqual(expected, Actual);
+            Assert.AreEqual(expected, actual);
         }
         [TestMethod]
         public void Testdate()
